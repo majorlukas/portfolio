@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1639734eea.js" crossorigin="anonymous"></script>
+
+	<script>
+		window.addEventListener('scroll', function () {
+			let scroll = document.querySelector('.scrollTop')
+			scroll.classList.toggle('active', window.scrollY > 250)
+		})
+
+		function backTop() {
+			window.scrollTo({
+				top: 0,
+				behavior: 'smooth'
+			})
+		}
+	</script>
+	<script src="script.js" defer></script>
+
+</head>
+
+<body>
+	<!----hero Section start---->
+	<button class="scrollTop" onclick="backTop();">
+		<img class="top" src="./img/topo.svg" alt="" color="#fff">
+	</button>
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Well<span>come</span></h2>
+			<ul>
+				<li><a href="#about">Sobre</a></li>
+				<li><a href="#service">Services</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact me</a></li>
+			</ul>
+		</nav>
+
+		<div class="content">
+			<h4>Hello, I'm</h4>
+			<h1>Lucas <span>Nascimento</span></h1>
+			<h3>A Web & Mobile Developer, nice to see you here!!</h3>
+			<div class="newslatter">
+			</div>
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section id="about" class="about">
+		<div class="main">
+			<img src="img/main-img.jpg" style="border-radius: 50px">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5><span>Web and mobile</span> developer</h5>
+				<p>
+					I'm a lover of tecnologies. Since I've younger I see the wolrd growing
+					with the tecnologies, this makes me so happy at the same curious to know how the things are made,
+					so with this idea I learn ways to make your Website/App look mutch better and usable for everybody.
+					I'm just a beginer, but, I can do it, come with me and see it.
+				<div class="pra">
+
+					<a class="buttonab" href="#contact">Let's Talk</a>
+
+					</p>
+				</div>
+
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<!-----service section start----------->
+	<div id="service" class="service">
+		<div class="title">
+			<h2>My Services</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fa-solid fa-child-reaching"></i>
+				<h5>In Development</h5>
+				<div class="pra">
+					<p>All I need is you choose me to change this section !!</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#contact">Contact me</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa-solid fa-child-reaching"></i>
+				<h5>In Development</h5>
+				<div class="pra">
+					<p>All I need is you choose me to change this section !!</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#contact">Contact me</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa-solid fa-child-reaching"></i>
+				<h5>In Development</h5>
+				<div class="pra">
+					<p>All I need is you choose me to change this section !!</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#contact">Contact me</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-----skills section start----------->
+	<div id="skills" class="skills">
+		<div class="title">
+			<h2>My skills</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fa-brands fa-react"></i>
+				<h5>React Native</h5>
+				<div class="pra">
+					<p>Is a Javascript library created by Facebook. It is used to develop applications for Android and
+						iOS systems natively.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://reactnative.dev" target="_blank" rel="noopener noreferrer">Read
+							More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa-brands fa-square-js"></i>
+				<h5>Java Script</h5>
+				<div class="pra">
+					<p>Is a structured, multi-paradigm,
+						weak dynamically typed, high-level scripting interpreted programming language.
+					</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://www.javascript.com" target="_blank"
+							rel="noopener noreferrer">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa-solid fa-database"></i>
+				<h5>FireBase</h5>
+				<div class="pra">
+					<p>Is a set of hosting services.
+						It offers NoSQL and real-time hosting of databases, content, social authentication and more.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://firebase.google.com/?hl=pt" target="_blank"
+							rel="noopener noreferrer">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-----skills section start----------->
+	<div id="Projects" class="Projects">
+		<div class="title">
+			<h2>My Projects</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+
+				<i class="fa-brands fa-react"></i>
+				<h5>React Native<span>/Firebase</span></h5>
+
+				<div class="pra">
+					<p>Actualy in development of an App that makes appointments off barbbers, to leran more things about
+						react native and firebases</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="https://reactnative.dev" target="_blank" rel="noopener noreferrer">Read
+							More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="fa-solid fa-child-reaching"></i>
+				<h5>In Development</h5>
+				<div class="pra">
+					<p>All I need is you choose me to change this section !!</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#contact">Contact me</a>
+					</p>
+				</div>
+			</div>
+			<div class="card">
+				<i class="fa-solid fa-child-reaching"></i>
+				<h5>In Development</h5>
+				<div class="pra">
+					<p>All I need is you choose me to change this section !!</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#contact">Contact me</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------Contact Me------>
+	<div id="contact" class="contact-me">
+		<i class="fa-solid fa-face-hand-peeking"></i>
+		<p>Want a Website or an App?</p>
+		<section>
+			<h2>Hire Me</h2>
+			<form action="file:///C:/Users/lucas/Desktop/lucasnl/index.html#contact" method="post">
+				<label>Nome</label>
+				<input type="text" name="name" placeholder="Digite seu nome" autocomplete="on" required>
+				<label>Email</label>
+				<input type="email" name="email" placeholder="Digite seu email" autocomplete="on" required>
+				<label>Mensagem</label>
+				<textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+				<div class="sendButtom">
+
+					<button type="submit">Enviar</button>
+					<div class="social">
+						<a href="https://wa.me/5585992868474?text=Ol%C3%A1%2C+vi+seu+site%2C+quero+conversar+sobre%21%21"
+							target="_blank" rel="noopener noreferrer">
+							<i class="fa-brands fa-whatsapp"></i></a>
+					</div>
+				</div>
+
+				<input type="hidden" name="accessKey" value="711a81c4-ef6c-416a-9f8a-0db9728c49df">
+				<input type="hidden" name="redirectTo"
+					value="file:///C:/Users/lucas/Desktop/lucasnl/index.html#contact">
+			</form>
+		</section>
+	</div>
+
+	<!------footer start--------->
+	<footer>
+		<p>Lucas Nascimento</p>
+		<p>Follow me</p>
+		<div class="social">
+			<a href="https://www.instagram.com/lucas.nl1" target="_blank" rel="noopener noreferrer"><i
+					class="fa-brands fa-instagram"></i></a>
+			<a href="https://github.com/majorlukas" target="_blank" rel="noopener noreferrer"><i
+					class="fa-brands fa-github"></i></a>
+			<a href="https://www.linkedin.com/in/lucas-nascimentol/" target="_blank" rel="noopener noreferrer"><i
+					class="fa-brands fa-linkedin-in"></i></a>
+		</div>
+		<p class="end">CopyRight By Lucas Nascimento</p>
+	</footer>
+
+</body>
+
+</html>
